@@ -1,5 +1,5 @@
 import pandas as pd
-import seaborn as sns
+
 import streamlit as st
 #from streamlit_echarts import st_echarts
 from codigo_de_ejecucion_toyota_corolla_v01 import *
