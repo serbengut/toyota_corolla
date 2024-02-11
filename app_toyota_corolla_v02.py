@@ -139,6 +139,10 @@ registro = pd.DataFrame({'abs':abs_,
 
 registro
 
-precio = ejecutar_modelo(registro)
-precio
+if st.sidebar.button('CALCULAR PRECIO'):
+
+    precio = ejecutar_modelo(registro)
+    precio
+else:
+    st.write('DEFINE LOS PARÁMETROS DEL PRÉSTAMO Y HAZ CLICK EN CALCULAR RIESGO')
 
